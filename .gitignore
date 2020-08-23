@@ -1,9 +1,10 @@
 .*
 !.gitignore
 
+!.sample.env
+
 logo
 python
 node_modules
 
-credentials.js
-credentials.py
+credentials.*
