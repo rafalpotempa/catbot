@@ -1,0 +1,9 @@
+.*
+!.gitignore
+
+logo
+python
+node_modules
+
+credentials.js
+credentials.py
