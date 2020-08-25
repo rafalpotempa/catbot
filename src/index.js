@@ -1,4 +1,5 @@
 module.exports = async function App(context) {
+	context.markSeen(context)
 
 	if (context.event.isText && context.event.text.includes('/meow')) {
 		getCat().then(cat => context.sendImage(cat));	
