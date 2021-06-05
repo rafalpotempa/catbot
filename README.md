@@ -8,6 +8,9 @@ Catbot is an interactive Facebook Messenger bot that sends you a random cat imag
 
 ## Usage
 
+
+![preview](assets/preview.gif)
+
 Go to [Catbot](https://www.facebook.com/catbotmeow) Facebook page. Write message. Get a cute cat.
 
 `/meow` - to get random cat image or gif
