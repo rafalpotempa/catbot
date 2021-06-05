@@ -1,9 +1,10 @@
 FROM node:lts-alpine
 
-WORKDIR /usr/catbot
-COPY package*.json .
+WORKDIR /catbot
+COPY app/package*.json .
 RUN npm install --production
 
-COPY --chown=node:node . .
-USER node
+USER catbot
+COPY --chown=catbot:catbot /app .
+COPY catbot-config/.env .
 CMD ["npm", "start"]
