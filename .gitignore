@@ -1,10 +1,5 @@
 .*
 !.gitignore
-
 !.sample.env
 
-logo
-python
 node_modules
-
-credentials.*

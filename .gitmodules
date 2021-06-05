@@ -1,0 +1,3 @@
+[submodule "catbot-config"]
+	path = catbot-config
+	url = https://github.com/rafalpotempa/catbot-config/
