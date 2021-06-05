@@ -990,8 +990,6 @@ chokidar@^3.2.2:
     is-glob "~4.0.1"
     normalize-path "~3.0.0"
     readdirp "~3.4.0"
-  optionalDependencies:
-    fsevents "~2.1.2"
 
 ci-info@^2.0.0:
   version "2.0.0"

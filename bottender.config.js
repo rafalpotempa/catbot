@@ -12,6 +12,7 @@ module.exports = {
     messenger: {
       enabled: true,
       path: '/webhooks/messenger',
+      fields: ['messages'],
       pageId: process.env.MESSENGER_PAGE_ID,
       accessToken: process.env.MESSENGER_ACCESS_TOKEN,
       appId: process.env.MESSENGER_APP_ID,
