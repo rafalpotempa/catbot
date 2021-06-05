@@ -1,5 +1,5 @@
 .*
 !.gitignore
-!.sample.env
+!.dockerignore
 
 node_modules

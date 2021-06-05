@@ -7,7 +7,7 @@
     "start": "bottender start"
   },
   "dependencies": {
-    "axios": "^0.20.0",
-    "bottender": "1.4.10"
+    "axios": "^0.21.1",
+    "bottender": "^1.4.10"
   }
 }
