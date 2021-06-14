@@ -10,6 +10,8 @@ module.exports = async function App(raw_context) {
 			let cat_url = await getCat();
 			// context.typingOff();
 			context.sendImage(cat_url);
+		} else {
+			context.sendText('Type \'/meow\'.');
 		}
 	} catch (error) {
 		console.log(error);
